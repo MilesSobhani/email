@@ -1,0 +1,5 @@
+Email verify api --  https://www.npmjs.com/package/email-verifier
+    costs after the first 1000 uses per month
+    would be better to make my own
+
+dns module for node seems to be able to handle dns and mx lookup I just need to learn to import the functions properly testing to come...
