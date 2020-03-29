@@ -3,16 +3,16 @@ const options = {
     all:true,
 }
 
-dns.lookup('aol.com', options)
+dns.lookup('flimflam.doodoo.sdfadasdaf.com', options)
 .then((result) => {
-    console.log(result);
+    console.log('dns result =', result);
   }).catch((err) => {
-      console.log(err);
-  });
+      console.log('dns result =', err);
+});
 
-dns.resolveMx('aol.com', options)
+dns.resolveMx('flimflam.doodoo.sdfadasdaf.com', options)
 .then((result) => {
-    console.log(result);
+    console.log('mx result =', result);
 }).catch((err) => {
-    console.log(err);
+    console.log('mx result =', err);
 });
